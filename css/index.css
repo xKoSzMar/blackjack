@@ -1,0 +1,103 @@
+/* RESET CSS*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 100vw;
+  height: 100%;
+}
+
+body {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  background-image: url("../img/background.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: inherit;
+  align-items: inherit;
+  justify-content: inherit;
+  width: inherit;
+  height: inherit;
+}
+
+#content {
+  display: inherit;
+  align-items: inherit;
+  justify-content: space-around;
+  flex-direction: column;
+  background-image: url(../img/casino_green.png);
+  border-radius: 10%;
+  border: 0.2em solid black;
+  padding: 1em;
+  min-width: 200px;
+  min-height: 300px;
+  width: 30%;
+  height: 60%;
+}
+
+h1 {
+  color: goldenrod;
+  font-weight: bold;
+  font-size: 2rem;
+}
+
+p {
+  color: whitesmoke;
+  font-size: 1.5rem;
+}
+
+.inGameDisplay {
+  display: none;
+}
+
+#display {
+  font-style: italic;
+}
+
+input {
+  text-align: center;
+  font-size: 1em;
+  padding: 5px 0px;
+  width: 50%;
+  color: #333;
+  border: 0.2em solid #333;
+}
+
+.button {
+  color: #333;
+  background-color: goldenrod;
+  font-size: 1rem;
+  font-weight: bold;
+  border: 0.2em solid #333;
+  border-radius: 10%;
+  padding: 1em;
+  transition: 0.3s linear;
+  min-width: 125px;
+}
+
+.button:hover,
+.button:focus {
+  color: whitesmoke;
+  border: 0.2em solid whitesmoke;
+}
+
+.button:active {
+  color: #333;
+  border: 0.2em solid #333;
+  transition: 0s linear;
+}
+
+#draw_card {
+  display: none;
+}
+
+#stand {
+  display: none;
+}
